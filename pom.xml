@@ -9,9 +9,24 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>api</module>
+        <module>handlers</module>
+        <module>server</module>
+        <module>client</module>
     </modules>
 
     <packaging>pom</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
