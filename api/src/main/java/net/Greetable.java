@@ -1,8 +1,8 @@
 package net;
 
-public abstract class Greatable {
+public abstract class Greetable {
 
     public abstract String buildResponse(String userName);
 
-
+    //Greatable abstract class realisation
 }
